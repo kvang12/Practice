@@ -1,0 +1,100 @@
+body{
+    background-color:white;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    position: relative;
+    color:black;
+    position: absolute;
+    margin-left:75%;
+}
+#aws{text-shadow: 2px 2px 2px rgb(102, 255, 255) ;
+    transform: scale3d(1, 1, 1);
+    position: inherit;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: rgb(61, 44, 52);
+    color: rgb(204, 255, 255);
+    width: 40px;
+    border: solid 2px transparent;
+    padding:1em;
+}
+form{
+    
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    color: black;
+    margin-left: 23%;
+    margin-top: 1%;
+    border: solid 5px transparent;
+    box-shadow: 3px 3em 3em lightblue,
+    3em 2px 3em lightpink,
+    1em 5px 4em lightcyan;
+    border-radius: 50px;
+    filter: drop-shadow(20px);
+    transform-style: preserve-3d;
+}
+
+input{
+    position: absolute;
+    visibility: visible;
+    border-radius: 50px;
+    width: 20vw;
+    height: 25px;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3em white,
+    4px 4px 4px grey;
+}
+h2{
+    color: black;
+    padding-bottom: 30px;
+    margin-left: 38%;
+}
+#same{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+#a1{
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 39%;
+}
+#a1:hover{
+    color: lightpink;
+    transform: scale(0.90);
+}
+button{
+    border: transparent;
+    background-image:linear-gradient(rgb(255, 204, 255),
+    rgb(255, 204, 229));
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 31%;
+    font-size: 20px;
+    width: 15vw;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:active{
+    transform:translateX(-2);
+    transform: translateY(-2px);
+}
+#a2{
+    height: 20vw;
+    color: black;
+    position: absolute;
+    margin-left: 39%;
+}
+#a2:hover{
+    color: lightblue;
+    transform: scale(0.90);
+}

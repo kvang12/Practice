@@ -1,0 +1,11 @@
+html{
+    height: 100vh;
+}
+.nav{
+    background-color: black;
+}
+.nav_item{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
